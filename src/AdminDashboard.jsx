@@ -10,10 +10,7 @@ import {
   deleteDoc
 } from "firebase/firestore";
 import { motion, AnimatePresence } from "framer-motion";
-import {
-  Trash2,
-  CheckCircle
-} from "lucide-react";
+import { ArrowLeft, ShieldCheck, Building2, Globe, Mail, Trash2, CheckCircle, Clock, ExternalLink, LayoutDashboard, MessageSquare, DollarSign } from "lucide-react";
 
 export default function AdminDashboard() {
   const [annonces, setAnnonces] = useState([]);

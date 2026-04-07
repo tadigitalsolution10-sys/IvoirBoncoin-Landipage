@@ -386,7 +386,7 @@ const [contactSuccess, setContactSuccess] = useState(false);
                         <motion.div whileHover={{ y: -5 }} onClick={() => { setOption('option2'); setStep(2); }} className="p-8 rounded-[32px] border-2 border-slate-100 hover:border-orange-500 cursor-pointer transition-all group">
                           <div className="text-3xl mb-4">🎨</div>
                           <h3 className="font-black text-lg mb-2 text-orange-600">Option 2</h3>
-                          <p className="text-sm text-slate-500 leading-relaxed font-medium">Vous n’avez pas de visuel ? Donnez-nous les infos, on crée pour vous.</p>
+                          <p className="text-sm text-slate-500 leading-relaxed font-medium">Vous n’avez pas de visuel ? Donnez-nous les infos, et nous créons votre pub.</p>
                         </motion.div>
                       </div>
                     )}

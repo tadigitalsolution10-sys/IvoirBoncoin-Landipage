@@ -1,7 +1,5 @@
 import React from "react";
-import { ArrowLeft, ShieldCheck, Building2, Globe, Mail } from "lucide-react";
-import { useNavigate } from "react-router-dom";
-
+import { ArrowLeft, ShieldCheck, Building2, Globe, Mail, Trash2, CheckCircle, Clock, ExternalLink, LayoutDashboard, MessageSquare, DollarSign } from "lucide-react";import { useNavigate } from "react-router-dom";
 export default function MentionsLegales() {
   const navigate = useNavigate();
 
